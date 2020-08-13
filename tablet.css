@@ -1,0 +1,33 @@
+#floatr{
+    float:right;
+}
+#menu ul{
+    height: 10vw;
+}
+#menu li {
+    height: 10vw;
+    line-height: 10vw;
+    vertical-align: middle;
+    font-size:3vw;
+}
+#photos article{
+    margin:10px;
+}
+figure img{
+    width: 40vw;
+}
+
+
+
+.col-m1 {width: 8.33%;}
+.col-m2 {width: 16.66%;}
+.col-m3 {width: 25%;}
+.col-m4 {width: 33.33%;}
+.col-m5 {width: 41.66%;}
+.col-m6 {width: 50%;}
+.col-m7 {width: 58.33%;}
+.col-m8 {width: 66.66%;}
+.col-m9 {width: 75%;}
+.col-m10 {width: 83.33%;}
+.col-m11 {width: 91.66%;}
+.col-m12 {width: 100%;}

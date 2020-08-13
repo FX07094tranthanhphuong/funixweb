@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="general.css" type="text/css" media="all">
+        <link rel="stylesheet" href="tablet.css" type="text/css" media="screen and (min-width:769px)">        
+        <link rel="stylesheet" href="desktop.css" type="text/css" media="screen and (min-width:992px)">
+        <title>
+            Responsive
+        </title>
+    </head>
+
+    <body>
+        <nav id="menu">
+            <ul>
+                <span>
+                     <li><a href="error.html" target="_blank" onclick="ThongBao()">Brand</a></li>
+                     <li><a href="error.html" target="_blank" onclick="ThongBao()">Browser</a></li>
+                </span>
+                <span id="floatr">
+                     <li><a href="login.html" target="_self">Log in</a></li>
+                     <li><a href="signup.html" target="_self">Sign up</a></li>
+                     <li><a href="error.html" target="_blank" onclick="ThongBao()">Help</a></li>
+                </span>
+           </ul>
+        </nav>
+
+        <main>
+            <section id="banner">
+                <div>
+                    <h1>Find a place to stay.</h1>
+                    <p>Rent from people in over 34,000 cities and 192 countries.</p>
+                </div>
+            </section>
+            <section id="photos" class="row">
+                <article class="col-s col-m12 col-l12">
+                    <h2 style="font-weight: bold;">Neighborhood Guides</h2>
+                    <p>Not sure where to stay? We've created a neighborhood guides for cities all around the world.</p>
+                </article>
+                <figure class="col-s col-m6 col-l4">
+                    <img src="images_folder/mexico-city.png" alt="Mexico city"/>
+                    <img src="images_folder/ny.png" alt="New York City"/>
+                </figure>
+                <figure class="col-s col-m6 col-l4">
+                    <img src="images_folder/tokyo.png" alt="Tokyo city"/>
+                    <img src="images_folder/paris.png" alt="Paris"/>
+                </figure>
+                <figure class="col-s col-m6 col-l4">
+                    <img src="images_folder/invite.png" alt="Pool scene, white title, invitation"/>
+                </figure>
+            </section>
+        </main>
+
+        <footer>
+            <div>
+                <section class="col-s3 col-m12 col-l4">
+                    <h3>Travel</h3>
+                    <p>From apartments and rooms to treehouses and boats: stay in unique spaces in 192 countries</p>
+                    <a href="error.html" target="_blank" onclick="ThongBao()">See how to travel on Airbnb</a>
+                </section>
+                    
+                <section  class="col-s col-m12 col-l4">
+                    <h3>Host</h3>
+                    <p>Renting out your unusual space could pay your bills or fund your next vacation.</p>
+                    <a href="error.html" target="_blank" onclick="ThongBao()">Learn more about hosting</a>
+                </section>
+
+                <section class="col-s col-m12 col-l4">
+                    <h3>Trust and Safety</h3>
+                    <p>From Verify ID to our wolrdwide customer support team, we've got your back.</p>
+                    <a href="error.html" target="_blank" onclick="ThongBao()">Learn about trust at Airbnb</a>
+                </section>
+            </div>
+        </footer>
+
+        <script>
+            function ThongBao(){
+                 alert ("Website dang duoc hoan thien, hay quay lai sau.");
+            }
+        </script><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175298533-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-175298533-1');
+</script>
+
+        <p class="col-s12 col-m12 col-l12" style="text-align: center; padding:2em 0;">© 2020 Responsive. Design by Tran Thanh Phuong</p>
+    </body>
+</html>

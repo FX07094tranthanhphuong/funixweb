@@ -1,0 +1,81 @@
+.col-l1 {width: 8.33%;}
+.col-l2 {width: 16.66%;}
+.col-l3 {width: 25%;}
+.col-l4 {width: 33.33%;}
+.col-l5 {width: 41.66%;}
+.col-l6 {width: 50%;}
+.col-l7 {width: 58.33%;}
+.col-l8 {width: 66.66%;}
+.col-l9 {width: 75%;}
+.col-l10 {width: 83.33%;}
+.col-l11 {width: 91.66%;}
+.col-l12 {width: 100%;}
+
+html, body{
+    margin:19px;
+    width: 1278px;
+}
+main{
+    padding:0;
+    margin:0;
+}
+#photos{
+    font-size: 2vw;
+    padding:1em;
+    background-color: lightblue;
+    width: 1278px;
+}
+h1, p{
+    margin:0;
+    padding:0;
+}
+#menu {
+    position: relative;
+    width: 1278px;
+}
+#menu ul{
+    background-color: initial;
+    padding:0;
+}
+#menu a{
+    color:black;
+    font-size: 3em;
+}
+footer{
+    margin:0;
+    padding-left:30px;
+    font-size:1vw;
+    background: rgb(253, 255, 154);
+    height: 250px;
+}
+footer section{
+    padding-left: 9px;
+}
+footer section h3{
+    font-size: 3em;
+}
+footer section p{
+    padding:0 2em 2em 0;
+}
+#banner div{
+    position: absolute;
+    top:5em;
+    padding-left:3em;
+}
+#banner{
+    position: relative;
+    height:500px ;
+    background: url("https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png") no-repeat;
+    font-size: 2vw;
+    color:white;
+}
+#menu li{
+    font-size: 1vw;
+}
+body{
+    font-size: 2vw;
+}
+figure img{
+    width: 29vw;
+    margin-top:20px;
+}
